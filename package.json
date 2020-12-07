@@ -1,0 +1,23 @@
+{
+  "name": "moshpit",
+  "version": "0.0.1",
+  "description": "Minimalist multiplayer game state sync for fast game development",
+  "main": "lib/index.js",
+  "repository": "https://github.com/gillesdami/moshpit.git",
+  "author": "Damien GILLES <pro@gillesdamien.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jsondiffpatch": "^0.4.1",
+    "nanoid": "^3.1.20",
+    "ws": "^7.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@types/ws": "^7.4.0",
+    "typescript": "^4.1.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "serve": "node example/server.js"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "UMD",
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "noImplicitAny": false,
+      "removeComments": true,
+      "preserveConstEnums": true,
+      "sourceMap": true,
+      "target": "ES6",
+      "outDir": "lib"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
